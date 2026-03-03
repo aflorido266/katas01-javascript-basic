@@ -39,13 +39,23 @@ git clone <URL-de-tu-fork>
 cd katas01-javascript-basic
 ```
 
-#### 2. Abre el proyecto en tu editor
+#### 2. Activa GitHub Actions en tu fork
+
+> ⚠️ **Importante:** GitHub desactiva automáticamente las Actions en los repositorios que son forks, por razones de seguridad. Tienes que activarlas manualmente una sola vez.
+
+1. Ve a tu fork en GitHub (en tu cuenta, no en el repositorio original).
+2. Haz clic en la pestaña **Actions**, en el menú superior del repositorio.
+3. Verás un aviso que dice algo como _"Workflows aren't being run on this forked repository"_. Pulsa el botón **I understand my workflows, go ahead and enable them**.
+
+A partir de ese momento, cada vez que hagas `push`, GitHub ejecutará los tests automáticamente.
+
+#### 4. Abre el proyecto en tu editor
 
 ```bash
 code .
 ```
 
-#### 3. Resuelve los ejercicios de uno en uno
+#### 5. Resuelve los ejercicios de uno en uno
 
 Los ejercicios están en tres ficheros independientes. Resuélvelos en orden:
 
